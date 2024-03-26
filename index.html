@@ -1,12 +1,15 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <style>
+h1{
+color: orange;}
 
 .grid-container {
   display: grid;
+  justify-content: space-evenly;
   grid-template-columns: 150px 500px ;
-  grid-row-end:3;
   grid-gap: 10px;
   background-color: lightgrey;
   padding: 5px;
@@ -19,9 +22,12 @@
   	background-color: rgba(255, 255, 255, 0.8);
   	
 }
-.item1 {
+section {
 color: green;
 font-size: 30px;
+background-color: white;
+text-align: center;
+padding:30px;
 
 }
 
@@ -30,6 +36,7 @@ text-align: center;
 font-size: 30px;
 color: lightyellow;
 length: 200px;
+padding: 30px;
 }
 
 aside{
@@ -37,10 +44,12 @@ text-align: center;
 font-size: 30px;
 color: orange;
 background-color: white;
+
 }
 
 p{
 font-size: 20px;
+
 }
 
 footer{
@@ -60,22 +69,28 @@ grid-row-end: span 1;
 </head>
 <body>
 
-<h1>The grid-template-columns Property</h1>
+<h1>Lets learn Finnish!</h1>
 
-<p>Use the <em>grid-template-columns</em> property to define the number of columns in the grid layout.</p>
-<p>This grid layout has four columns:</p>
+<p><em>This is to provide you with some fun learning methods to help your Finnish language studies not as boring as it is...! </em>
+</p>
 
 <div class="grid-container">
-  <div class="item1">Weather</div>
-   <header>What're interesting things in Finland?</header>
-   <aside>Food</aside>  
+  
+   <header>How different is Finnish from other languages?</header>
+   
   <main>
   	<p>
-    Finnish people may be some of the happiest in the world but they also have several unusual traditions. Here are 5 surprising facts about the world's happiest country.</p>
+    There is a certain logic in thinking that languages spoken in neighbouring countries must be closely related. However, that’s not the case with Finnish.
+
+Finns often run into questions like “Is Finnish like Swedish?” or “Does everyone in Finland speak Russian?” A simple answer to both questions is no. Both Swedish (one of the two official languages of Finland) and Russian belong to the Indo-European group of languages, while Finnish is a Finno-Ugric language. The latter group also includes Hungarian, Estonian, Sámi (spoken by the indigenous people of northern Finland, Sweden and Norway and northwestern Russia) and several lesser-known languages spoken in areas of Russia. The Finno-Ugric languages share enough common lexical and grammatical features to prove a common origin. </p>
   </main>
-  <nav>Fashion</nav>
-  <div class="item6">6</div>
-  <div class="item7">7</div>
+  <section>Kids songs</section>
+   <section>Fashion</section>  
+  <section>Weather</section>
+  <section>Go to the market...</section>
+  
+  <nav>Join FREE online classes</nav>
+  
   <footer>Learn more...</footer>
 </div>
 
