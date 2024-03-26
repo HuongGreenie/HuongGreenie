@@ -1,50 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>grid example by kasper</title>
-<meta charset="utf-8" />
 <style>
-header { grid-area: header; }
-nav { grid-area: menu; }
-main { grid-area: main; }
-aside { grid-area: right; }
-footer { grid-area: footer; }
 
 .grid-container {
   display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+  grid-template-columns: 150px 500px ;
+  grid-row-end:3;
+  grid-gap: 10px;
+  background-color: lightgrey;
+  padding: 5px;
 }
 
-header, nav, main, aside, footer {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.grid-container > div {
+
+    text-align: center;
+	padding: 30px;
+  	background-color: rgba(255, 255, 255, 0.8);
+  	
+}
+.item1 {
+color: green;
+font-size: 30px;
+
+}
+
+header{
+text-align: center;
+font-size: 30px;
+color: lightyellow;
+length: 200px;
+}
+
+aside{
+text-align: center;
+font-size: 30px;
+color: orange;
+background-color: white;
+}
+
+p{
+font-size: 20px;
+}
+
+footer{
+text-align:left-bottom;
+font-size: 15px;
+color: brown;
+}
+
+nav{
+text-align: center;
+font-size: 30px;
+color: red;
+background-color: white;
+grid-row-end: span 1;
 }
 </style>
 </head>
 <body>
 
-<h1>Grid Layout</h1>
+<h1>The grid-template-columns Property</h1>
 
-<p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning:</p>
+<p>Use the <em>grid-template-columns</em> property to define the number of columns in the grid layout.</p>
+<p>This grid layout has four columns:</p>
 
 <div class="grid-container">
-  <header>Header</header>
-  <nav>Menu</nav>
-  <main>pää</main>  
-  <aside>Right</aside>
-  <footer>Footer</footer>
+  <div class="item1">Weather</div>
+   <header>What're interesting things in Finland?</header>
+   <aside>Food</aside>  
+  <main>
+  	<p>
+    Finnish people may be some of the happiest in the world but they also have several unusual traditions. Here are 5 surprising facts about the world's happiest country.</p>
+  </main>
+  <nav>Fashion</nav>
+  <div class="item6">6</div>
+  <div class="item7">7</div>
+  <footer>Learn more...</footer>
 </div>
 
 </body>
 </html>
-
-
-
