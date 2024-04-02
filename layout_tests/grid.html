@@ -8,7 +8,8 @@
   * {
   box-sizing: border-box;
 }
- body{ background-color: lightblue;}
+ body{ background-color: lightblue;
+ text-align: center,}
  h1 {
   color: white;
   text-align: center;
@@ -21,9 +22,9 @@
 .wrapper > div {
   border: 2px solid rgb(233 171 88);
   border-radius: 5px;
-  background-color: rgb(233 171 88 / 50%);
+  background-color: lightgrey;
   padding: 1em;
-  color: #d9480f;
+  color: darkblue;
 }
 
 .wrapper {
@@ -32,25 +33,30 @@
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
-.one {
-  grid-column: 1 / 3;
+
+.grammar {
+  grid-column: 1 / 1;
   grid-row: 1;
+  text-align: left;
+  font-size: 20px,
 }
+p{
+font-size: 13px;}
 .intro {
   grid-column: 2 / 4;
   grid-row: 1 / 3;
-  font-size: 13px;
+  font-size: 20px;
   text-align: left;
 }
 .wordlist {
   grid-column: 1;
   grid-row: 2 / 5;
 }
-.school {
+.weather{
   grid-column: 3;
   grid-row: 3;
 }
-.market {
+.food{
   grid-column: 2;
   grid-row: 4;
 }
@@ -61,17 +67,16 @@
 </style>
   <body>
 <div class="wrapper">
-  <div class="one">
-    Grammar <br />
-    Finnish word classes are verbs, nominals and particles. 
-
+  <div class="grammar">
+    <b>Grammar</b> <br />
+<p>Finnish word classes are verbs, nominals and particles.  
 Particles stay as they are, no cases here (hurrah!).<br>
 Verbs follow certain rules.<br>
 All nominals (nouns, adjectives, pronouns and numerals) follow another set of rules.<br>
-Here’s an infograhic that helps understand the big picture.<br>
-    <img src="https://herfinland.com/wp-content/uploads/2020/01/finnish-grammar-word-classes-finnishgrammar-finnishwordclass.jpg" alt="finnish grammar rules" weight="250" height="250">
+Here’s an infograhic that helps understand the big picture.</p><br>
+    <img src="https://herfinland.com/wp-content/uploads/2020/01/finnish-grammar-word-classes-finnishgrammar-finnishwordclass.jpg" alt="finnish grammar rules" weight="350"height="250">
   </div>
-  <div class="intro">Welcome to Finnish learning course!<br><br>
+  <div class="intro">Welcome to Finnish learning tipsr>           
                     Make Finnish even funnier to...<br> easily remember ! <br> <br>
   <p> Here are some useful links for FREE online classes:</p>
   </div>
