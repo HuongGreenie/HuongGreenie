@@ -9,8 +9,13 @@
 body{ background-color: lightblue;
   text-align: center,}
 h1 {
+  color: #5691be;
+  text-align: center;
+}
+h2{
   color: white;
   text-align: center;
+  font-size: 20px;
 }
 .wrapper {
   max-width: 940px;
@@ -18,17 +23,17 @@ h1 {
 }
 
 .wrapper > div {
-  border: 2px solid rgb(233 171 88);
+  border: 2px solid white;
   border-radius: 5px;
-  background-color: lightgrey;
+  background-color: #d7eae8;
   padding: 1em;
-  color: #157c1d;
+  color:rgba(214, 74, 33, 0.83);
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 5px;
   grid-auto-rows: minmax(100px, auto);
 }
 
@@ -36,36 +41,46 @@ h1 {
   grid-column: 1 / 1;
   grid-row: 1;
   text-align: left;
-  font-size: 25px,
 }
 p{
-  font-size: 13px;}
+  font-size: 15px;}
 .intro {
   grid-column: 2 / 4;
   grid-row: 1 / 3;
-  font-size: 21px;
+  font-size: 17px;
   text-align: center;
 }
 .wordlist {
   grid-column: 1;
   grid-row: 2 / 5;
-  font-size: 25px;
+  font-size: 20px;
+  color:rgba(214, 74, 33, 0.83);
+}
+li{
+  text-align: left;
 }
 .weather{
   grid-column: 3;
   grid-row: 3;
+  text-align: justify;
+  font-size: 20px;
 }
 .food{
   grid-column: 2;
   grid-row: 4;
+  text-align-last: justify;
+  font-size: 20px;
 }
 .hospital {
   grid-column: 3;
   grid-row: 4;
+  text-align-last: justify;
+  font-size: 20px;
 }
 .shopping {
   grid-column: 2;
   grid-row: 3;
+  font-size: 20px;
 }
 	</style>
   </head>
@@ -81,7 +96,7 @@ p{
         <img src="https://herfinland.com/wp-content/uploads/2020/01/finnish-grammar-word-classes-finnishgrammar-finnishwordclass.jpg" alt="finnish grammar rules" width="300"height="350">
       </div>
       <div class="intro">Welcome to Finnish learning tips<br>           
-        Make Finnish even funnier to... easily remember !  <br>
+        <strong>Make Finnish even funnier to... easily remember! </strong>  <br>
         <p> Here are some FUN FACTs about Finnish</p>
         <ol>
           <li>Finnish is gender neutral</li>
@@ -92,10 +107,21 @@ p{
         </ol> <br>
         <em> 
           <a href="https://openlearning.aalto.fi/course/index.php?categoryid=4">Check out some Free Online classes</a>
-        </em>
+        </em> <br>
+        Applications:
+        <ul>
+          <li> Suomipassi</li>
+          <li> Dualingo</li>
+          <li> WordDrive</li>
+        </ul> <br>
+        Podcast: Finnishpod101<br>
+        
+        <a href="https://kielikoulu.yle.fi/">Media content translated into many languages</a>
       </div>
       <div class="wordlist">
-        <a href="https://uusikielemme.fi/finnish-vocabulary/vocabulary-lists/survival-finnish-basic-phrases"> <b>Survival Finnish wordlist</b></a>
+        <a href="https://uusikielemme.fi/finnish-vocabulary/vocabulary-lists/survival-finnish-basic-phrases"> <b>Survival Finnish wordlist</b></a> <br>
+        <img src="https://i.pinimg.com/564x/cf/7c/fc/cf7cfcda07515cc405573c2cccb9053c.jpg" alt="greeting" width="250" height="300">
+        
       </div>
       <div class="shopping">
         <a href="https://www.youtube.com/watch?v=f0iw_dQT3j4">Shopping</a></div>
@@ -106,9 +132,5 @@ p{
       <div class="hospital">
         <a href="https://www.youtube.com/watch?v=nr-LIgekzVQ">At the hospital</a></div>
     </div>
-          
-    
-    
-
  </body>
 </html>
