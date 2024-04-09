@@ -54,17 +54,17 @@ p{
 }
 li{
   text-align: left;
-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-li: hoover{
-background-color: #0099cc;
-}
+
 .weather{
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);	
   grid-column: 3;
   grid-row: 3;
   text-align: justify;
   font-size: 20px;
 }
+-weather:hoover{
+background-color: #0099cc;}
 .food{
   grid-column: 2;
   grid-row: 4;
