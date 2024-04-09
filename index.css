@@ -63,7 +63,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   text-align: justify;
   font-size: 20px;
 }
--weather:hoover{
+.weather:hoover{
 background-color: #0099cc;}
 .food{
   grid-column: 2;
