@@ -65,6 +65,10 @@ font-family: 'Times New Roman', serif}
 }
 
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   background-color: #FFE4E1;
   color: #ffffff;
   text-align: center;
