@@ -29,7 +29,7 @@ html {
   padding: 15px;
 }
 img {
-    width: 45%;
+max-width: 100%;
 min-width: 200px;
 float: left;}
 
