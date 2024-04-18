@@ -28,6 +28,10 @@ html {
   color: #ffffff;
   padding: 15px;
 }
+img {
+    width: 45%;
+min-width: 200px;
+float: left;}
 
 .menu ul {
   list-style-type: none;
