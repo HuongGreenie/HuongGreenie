@@ -28,7 +28,7 @@ html {
   color: #ffffff;
   padding: 15px;
 }
-img {
+figure {
 max-width: 100%;
 min-width: 200px;
 float: left;}
