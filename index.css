@@ -31,7 +31,7 @@ html {
 figure {
 max-width: 100%;
 min-width: 200px;
-float: left;}
+float: center;}
 
 .menu ul {
   list-style-type: none;
